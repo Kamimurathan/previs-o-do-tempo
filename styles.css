@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: url('https://picsum.photos/1600/900');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    padding: 20px;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+input {
+    background-color: #7c7c7c2b;
+    width: calc(100% - 100px);
+    padding: 10px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+button {
+    background-color: #7c7c7c2b;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.lupa {
+    height: 20px;
+}
+
+.mini-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.descricao::first-letter {
+    text-transform: uppercase;
+}
